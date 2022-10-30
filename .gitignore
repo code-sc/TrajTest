@@ -1,0 +1,12 @@
+#Objects
+*.o
+
+#CCLS files
+.ccls*
+
+#VSCODE files
+src/.vscode*
+
+#Executable
+src/g_transtest
+
