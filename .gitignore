@@ -8,5 +8,5 @@
 src/.vscode*
 
 #Executable
-src/g_transtest
+src/g_trajtest
 
