@@ -9,7 +9,7 @@ DEPS	 = $(patsubst %,$(IDIR)/%,$(_DEP))
 LIBS	 = -lgromacs_d -lm -lfftw3 -pthread
 EXE	 = g_trajtest
 
-CC	 = mpicxx
+CC	 = g++
 CFLAGS	 = -O3 -finline-functions -g -Wall -pthread -std=c++1z -I/home/scj/Softwares/gromacs-double/include/ -DGMX_DOUBLE=1 -fopenmp
 LDFLAGS	 = -g -Wall -std=c++1z -L/home/scj/Softwares/gromacs-double/lib/
 
